@@ -14,16 +14,20 @@ html {
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
 
-.container {
-  max-width: 1140px;
-  height: 100%;
-  margin: 0 auto;
-  padding: 0 30px;
+h1,
+h2 {
+  font-family: "Bebas Neue", cursive;
+  color: #363958;
+}
+
+h3 {
+  font-family: "Inter", sans-serif;
+  color: #363958;
 }
 
 ul li {
@@ -39,6 +43,15 @@ img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+button {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+button span i {
+  margin-right: 5px;
 }
 
 /*
